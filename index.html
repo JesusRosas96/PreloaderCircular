@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emerka Marketing | Preloader Circular</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/Style.css" />
+    </head>
+
+    <body>
+        <section>
+            <audio autoplay="autoplay" loop="loop">
+                <source src="audio/Nichkhun - Mars.mp3" type="audio/mp3" />
+                <source src="audio/Nichkhun - Mars.ogg" type="audio/ogg" />
+            </audio>
+
+            <header>
+                <div class="title">
+                    <nav class="grid-container">
+                        <img style="margin-right: 600px; " src="img/logo.png" style=""></img>
+                        <div><img src="../Preloader Circular/img/home.png"><a href="index.html">Home</a></div>
+                    </nav>
+                </div>
+            </header>
+
+            <article>
+                <div id='preloader'>
+                    <h1>Cargando</h1>
+                    <canvas id='miCanvas' width='200' height='200'></canvas>
+                    <span id='porcentaje'>0%</span>
+                </div>
+                <div id='wrapper'></div>
+            </article>
+
+            <footer>
+                <p>Coatzacoalcos, Ver. Calle Juventino Rosas #3,006 B, Depto. #308, Col. Playa Sol, CP 96518</p>
+                <p>921 140 0440   eovalle@emerka.com.mx</p>
+            </footer>
+        </section>
+
+        <script src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+        <script src='js/preloadjs-0.1.0.min.js'></script>
+        <script src='js/mScript.js'></script>
+    </body>
+</html>
